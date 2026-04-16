@@ -714,7 +714,7 @@ footer {
         <span class="exp-period">Nov 2022 – Present</span>
       </div>
       <ul class="exp-pts">
-        <li>Identified and responsibly disclosed critical vulnerabilities — XSS, SQL Injection, authentication bypass, and IDOR — across multiple production platforms</li>
+        <li>Identified and responsibly disclosed critical vulnerabilities — XSS, SQL Injection, authentication bypass, IDOR, and <strong style="color:#fff">hardcoded credentials with employee PII exposure (CVSS 9.1 Critical)</strong> — across multiple production platforms on Bugcrowd, HackerOne, and Intigriti</li>
         <li>Recognised by <strong style="color:#fff">NASA's Vulnerability Disclosure Program (2025)</strong> with a Letter of Appreciation for responsible reporting</li>
         <li>Built and deployed <strong style="color:#fff">custom automated recon tooling</strong> (github.com/1cYinfinity/recon) used actively in bug bounty workflows</li>
         <li>Produced structured, detailed vulnerability reports combining OSINT, automation, and manual testing</li>
@@ -807,6 +807,13 @@ footer {
     </div>
 
     <div class="ach-card">
+      <div class="ach-ico">🔐</div>
+      <div class="ach-num">9.1</div>
+      <div class="ach-name">CVSS Critical — Intigriti 2026</div>
+      <div class="ach-sub">SFS Group Schweiz AG · Hardcoded Sendbird API token + Employee PII exposed via public JS bundle &amp; GitLab API · Independently confirmed Critical severity</div>
+    </div>
+
+    <div class="ach-card">
       <div class="ach-ico">🏆</div>
       <div class="ach-num">#4</div>
       <div class="ach-name">HackZero'26 CTF — 2026</div>
@@ -887,8 +894,7 @@ footer {
       <div class="proj-arrow">→</div>
     </div>
 
-    
-  </div>
+      </div>
 </section>
 
 <!-- ── CERTS ── -->
